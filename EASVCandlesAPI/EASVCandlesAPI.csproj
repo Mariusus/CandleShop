@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CandleShopApp.Core\CandleShopApp.Core.csproj" />
+    <ProjectReference Include="..\CandleShopApp\CandleShopApp.csproj" />
+    <ProjectReference Include="..\CandlesShopApp.Infrastructure.Static.Data\CandlesShopApp.Infrastructure.Static.Data.csproj" />
+    <ProjectReference Include="..\PetsShopApp.Core.Entity\CandleShopApp.Core.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

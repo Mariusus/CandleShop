@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandleShopApp", "CandleShopApp\CandleShopApp.csproj", "{B76F817D-7814-49BC-88FE-581BF712CBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleShopApp.Core.Entity", "PetsShopApp.Core.Entity\CandleShopApp.Core.Entity.csproj", "{3591D595-FF8F-4D5C-8656-DC3FA244EAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleShopApp.Core", "CandleShopApp.Core\CandleShopApp.Core.csproj", "{7FAD7D02-1690-4AA7-9C12-B3E323359701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B17EE715-22ED-43C6-A517-FDF8FB34C718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FDB1E8E5-0C09-4003-9B80-F9DD06A460F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D89AF063-4E39-42ED-88B3-3B990CF20B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandlesShopApp.Infrastructure.Static.Data", "CandlesShopApp.Infrastructure.Static.Data\CandlesShopApp.Infrastructure.Static.Data.csproj", "{88461020-194E-46A4-A23B-56EDA35E0D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASVCandlesAPI", "EASVCandlesAPI\EASVCandlesAPI.csproj", "{80566F65-FA81-4FF6-83D4-A3BC08C18C3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76F817D-7814-49BC-88FE-581BF712CBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76F817D-7814-49BC-88FE-581BF712CBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76F817D-7814-49BC-88FE-581BF712CBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76F817D-7814-49BC-88FE-581BF712CBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3591D595-FF8F-4D5C-8656-DC3FA244EAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3591D595-FF8F-4D5C-8656-DC3FA244EAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3591D595-FF8F-4D5C-8656-DC3FA244EAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3591D595-FF8F-4D5C-8656-DC3FA244EAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAD7D02-1690-4AA7-9C12-B3E323359701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAD7D02-1690-4AA7-9C12-B3E323359701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAD7D02-1690-4AA7-9C12-B3E323359701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAD7D02-1690-4AA7-9C12-B3E323359701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88461020-194E-46A4-A23B-56EDA35E0D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88461020-194E-46A4-A23B-56EDA35E0D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88461020-194E-46A4-A23B-56EDA35E0D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88461020-194E-46A4-A23B-56EDA35E0D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80566F65-FA81-4FF6-83D4-A3BC08C18C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80566F65-FA81-4FF6-83D4-A3BC08C18C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80566F65-FA81-4FF6-83D4-A3BC08C18C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80566F65-FA81-4FF6-83D4-A3BC08C18C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B76F817D-7814-49BC-88FE-581BF712CBB7} = {D89AF063-4E39-42ED-88B3-3B990CF20B10}
+		{3591D595-FF8F-4D5C-8656-DC3FA244EAA3} = {B17EE715-22ED-43C6-A517-FDF8FB34C718}
+		{7FAD7D02-1690-4AA7-9C12-B3E323359701} = {B17EE715-22ED-43C6-A517-FDF8FB34C718}
+		{88461020-194E-46A4-A23B-56EDA35E0D7C} = {FDB1E8E5-0C09-4003-9B80-F9DD06A460F0}
+		{80566F65-FA81-4FF6-83D4-A3BC08C18C3C} = {D89AF063-4E39-42ED-88B3-3B990CF20B10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1201C68-2EED-4A97-AC3A-0918D931057A}
+	EndGlobalSection
+EndGlobal

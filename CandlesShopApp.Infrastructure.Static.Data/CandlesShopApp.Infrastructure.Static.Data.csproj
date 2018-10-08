@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CandleShopApp.Core\CandleShopApp.Core.csproj" />
+    <ProjectReference Include="..\CandleShopApp\CandleShopApp.csproj" />
+    <ProjectReference Include="..\PetsShopApp.Core.Entity\CandleShopApp.Core.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
